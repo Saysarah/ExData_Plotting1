@@ -8,7 +8,7 @@ y <- powerData$Sub_metering_1
 y2 <- powerData$Sub_metering_2
 y3 <- powerData$Sub_metering_3
 
-plot(x,y, type = "n", ylab = "Energy sub metering") ## empty plot 
+plot(x,y, type = "n", xlab = "", ylab = "Energy sub metering") ## empty plot 
 points(x,y, type = "l", col = "black") ## add in data one colour at a time
 points(x,y2, type = "l", col = "red")
 points(x,y3, type = "l", col = "blue")
